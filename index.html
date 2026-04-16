@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CruzTech — AI Automation & Data Engineering | www.cruztechai.com</title>
+<title>CruzTechAI — AI Automation & Data Engineering | www.cruztechai.com</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -102,6 +102,10 @@ h2 strong { font-weight: 500; }
 .ptags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.25rem; }
 .plink { font-size: 13px; font-weight: 500; color: var(--accent); text-decoration: none; }
 .plink:hover { text-decoration: underline; }
+.plinks { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+.plink-demo { font-size: 13px; font-weight: 500; color: #fff; text-decoration: none; background: var(--accent); padding: 6px 14px; border-radius: 6px; transition: opacity 0.2s; display: inline-flex; align-items: center; gap: 5px; }
+.plink-demo:hover { opacity: 0.85; }
+.plink-demo svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2.5; }
 
 .about-inner { display: grid; grid-template-columns: 1.3fr 1fr; gap: 5rem; align-items: start; }
 .about-body p { font-size: 16px; color: var(--text-muted); line-height: 1.8; font-weight: 300; margin-bottom: 1rem; }
@@ -187,7 +191,7 @@ footer p { font-size: 13px; color: var(--text-muted); }
       <div class="terminal-card">
         <div class="terminal-bar">
           <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
-          <span class="terminal-label">CruzTech ~ pipeline</span>
+          <span class="terminal-label">cruztechai ~ pipeline</span>
         </div>
         <div class="tl"><span class="tp">neil@ctai</span><span class="to"> ~ </span><span class="tc">$ run automation --target crm</span></div>
         <div class="tl"><span class="to">  initialising workflow engine...</span></div>
@@ -208,7 +212,7 @@ footer p { font-size: 13px; color: var(--text-muted); }
 <div class="stats-strip">
   <div class="stats-inner">
     <div><span class="stat-num">15+</span><span class="stat-label">Years enterprise experience</span></div>
-    <div><span class="stat-num">6</span><span class="stat-label">AI projects shipped</span></div>
+    <div><span class="stat-num">7</span><span class="stat-label">AI projects shipped</span></div>
     <div><span class="stat-num">4</span><span class="stat-label">AI trainings completed</span></div>
     <div><span class="stat-num">∞</span><span class="stat-label">Automation potential</span></div>
   </div>
@@ -304,6 +308,20 @@ footer p { font-size: 13px; color: var(--text-muted); }
       <a href="https://github.com/rionellcruz" class="plink" target="_blank">View on GitHub →</a>
     </div>
 
+    <div class="pc">
+      <div class="ph"><span class="pnum">06</span><span class="badge b-live">Live</span></div>
+      <h3>ChurnGuard</h3>
+      <p>AI-powered customer churn prediction SaaS for small business. Detects industry automatically, audits data gaps, runs XGBoost-style risk scoring across 8 churn drivers, and surfaces per-customer retention actions. Features an embedded Power BI analytics dashboard — built in parallel with PL-300 certification study.</p>
+      <div class="ptags"><span class="tag">Claude API</span><span class="tag">React 18</span><span class="tag">Vite</span><span class="tag">Power BI</span><span class="tag">XGBoost</span><span class="tag">Capacitor</span></div>
+      <div class="plinks">
+        <a href="https://rionellcruz.github.io/CruzTechAI/churnguard/" class="plink-demo" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Live demo
+        </a>
+        <a href="https://github.com/rionellcruz/churnguard" class="plink" target="_blank">View on GitHub →</a>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -394,7 +412,7 @@ footer p { font-size: 13px; color: var(--text-muted); }
 <footer>
   <div class="footer-inner">
     <a href="#" class="footer-logo">Cruz<span>Tech</span>AI</a>
-    <p>© 2025 CruzTech · Melbourne, Australia · <a href="https://www.cruztechai.com" style="color:inherit;">www.cruztechai.com</a></p>
+    <p>© 2025 CruzTechAI · Melbourne, Australia · <a href="https://www.cruztechai.com" style="color:inherit;">www.cruztechai.com</a></p>
     <p style="font-size:12px;color:var(--text-light);">AI Automation · Data Engineering · Process Intelligence</p>
   </div>
 </footer>
